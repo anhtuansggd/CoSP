@@ -1,0 +1,1 @@
+Caused by: java.lang.IncompatibleClassChangeError: Class org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider does not implement the requested interface jakarta.persistence.spi.PersistenceProvider
