@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "a43daacd-9650-4901-ab39-878907e8503b",
+		"name": "CoSP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25463480"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8889/api/code/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"Secret code\",\n    \"time\": 60,\n    \"views\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8889/api/code/new"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/code/f3074512-76de-4ed4-931f-1e6ed60274ac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8889/code/f3074512-76de-4ed4-931f-1e6ed60274ac"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/api/code/fdc71eb8-1799-4068-8c21-064f90d0d5a6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8889/api/code/fdc71eb8-1799-4068-8c21-064f90d0d5a6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/api/code/latest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8889/api/code/latest"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/code/latest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8889/code/latest"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/code/new",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8889/code/new"
+			},
+			"response": []
+		}
+	]
+}
