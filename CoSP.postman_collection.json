@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8889/api/code/new",
+			"name": "Create new code",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -25,7 +25,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8889/code/f3074512-76de-4ed4-931f-1e6ed60274ac",
+			"name": "Get code",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -61,7 +61,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8889/code/new",
+			"name": "Get code at API",
 			"request": {
 				"method": "GET",
 				"header": [],
